@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  overflow-x: hidden;
+
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 5vh;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  justify-content: space-between;
+  height: 6vh;
+}
+
+.list-item {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.nav-button {
+  padding: 1vh 4vh;
+  background-color: rgb(97, 98, 167);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar-container:first-child {
+  background-color: #fff;
+}
+
+[aria-label="banner"] {
+  overflow: hidden;
+  width: 100vw;
+}
+
+.banner-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: #233049b4;
+  justify-content: space-between;
+}
+
+.banner-container:first-child {
+  font-size: 2rem;
+  padding: 10vh 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.description {
+  margin: 4vh 1vh;
+  font-size: 1rem;
+}
+
+[alt="illustration"] {
+  position: absolute;
+  top: 5%;
+  left: 38.5%;
+  transform: scale(0.8);
+}
+
+.heading-text > span {
+  color: purple;
+}
